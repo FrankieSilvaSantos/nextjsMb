@@ -2,3 +2,8 @@
   font-family: Helvetica;
   color: #000;
 }
+
+html,body,section,div {
+  height:100%;
+  display: block;
+}

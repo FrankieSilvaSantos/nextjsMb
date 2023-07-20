@@ -5,6 +5,8 @@ export default function Footer() {
     return(
 
         <>
+
+         
             <footer className={` text-center text-lg-start ${styles.footerContainer}`}>
  
   <div className={`text-center p-3 ${styles.divFooterColor}`}>
@@ -12,7 +14,9 @@ export default function Footer() {
     <a className="text-dark" href="https://mdbootstrap.com/">Curso do NextJs</a>
   </div>
  
+
 </footer>
+
         </>
 
     )

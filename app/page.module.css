@@ -1,7 +1,9 @@
 .mainContainer {
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -17,6 +19,17 @@
     border-bottom: 2px solid black;
     position: relative;
     left: 48%;
-    width: 6%;
+    width: 7%;
 
 }
+
+.imgHome {
+    position: relative;
+    left: 3%;
+    margin-top: 2em;
+    height: 25em;
+    width: auto;
+   
+
+}
+

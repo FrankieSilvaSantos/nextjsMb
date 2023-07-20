@@ -6,14 +6,19 @@ export default function Home() {
     <main className={styles.mainContainer}>
 
 
-        <section>
+       <section>
+          
+      
         <h1 className={`${styles.titleHome}`}>Home MotherFucker</h1>
-
           <section className={`${styles.borderStyle}`}></section>
+          </section>
 
-      <img src='./img/noFace.jpg'></img>
 
+          <section>
+      <img className={`${styles.imgHome}`} src='./img/noFace.jpg'></img>
       </section>
+     
+     
     </main>
   )
 }
