@@ -5,3 +5,45 @@
   
   
   }
+
+  .navbarStyle {
+
+    background-color: #000 !important;
+ 
+
+  }
+
+  .linkStyle2 {
+
+    color: white !important;
+
+  }
+
+  .linkStyle {
+
+    color: white !important;
+    border-bottom: none !important;
+    transition: 1s !important;
+  }
+
+  .linkStyle:hover, .linkStyle:active,.linkStyle:focus {
+
+    border-bottom: 1px solid rgb(187, 180, 180) !important;
+    color: rgb(187, 180, 180) !important;
+
+
+  }
+
+  .navbarTogglerStyle {
+
+    background-color: white ;
+   border: 3px solid white ;
+    border-radius: 10px;
+  }
+
+  .navbarTogglerStyle:focus,.navbarTogglerStyle:active, .navbarTogglerStyle:visited {
+    
+   border-color: rgb(187, 180, 180) !important; 
+   
+
+  }
