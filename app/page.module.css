@@ -1,0 +1,22 @@
+.mainContainer {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleHome {
+
+    text-align: center;
+    margin-top: 0.5em;
+
+}
+
+.borderStyle {
+
+    border-bottom: 2px solid black;
+    position: relative;
+    left: 48%;
+    width: 6%;
+
+}
