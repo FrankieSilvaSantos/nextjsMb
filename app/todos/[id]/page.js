@@ -41,7 +41,7 @@ export default async function Id({ params, searchParams }) {
     
 
 <h2>Title: {data.title}</h2>
- {/* <h2>Completed: {data.completed.toString()}</h2>  */}
+  <h2>Completed: {data.completed.toString()}</h2>  
     
       
 
