@@ -9,7 +9,7 @@ export default function BlackPants() {
 
         
         <h1>Calça preta R$25,99</h1>
-
+        <div style={{height:'64vh'}}></div>
         </section>
         </>
 

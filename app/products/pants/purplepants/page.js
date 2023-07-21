@@ -9,7 +9,7 @@ export default function PurplePants() {
             <section className={`${styles.containerPurplepants}`}>
             
             <h1>Calça roxa R$35,99</h1>
-
+            <div style={{height:'64vh'}}></div>
             </section>
         </>
 
