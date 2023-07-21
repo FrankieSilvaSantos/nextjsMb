@@ -31,6 +31,7 @@ export default function Id({ params, searchParams }) {
       <h1>ID: {searchParams.id}</h1>
 
       <Link href={`/todos/${searchParams.id}/[details]?details=${searchParams.id}`}>Details</Link>
+      <div style={{height:'60vh'}}></div>
     </section>
 
   )

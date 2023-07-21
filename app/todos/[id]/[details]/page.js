@@ -30,6 +30,7 @@ import styles from './Details.module.css'
         <section className={`${styles.containerDetails}`}>
 
 <h1>Comentario {params.id}</h1>
+<div style={{height:'64vh'}}></div>
         </section>
     )
 
