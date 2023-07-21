@@ -2,6 +2,8 @@
 
 import styles from './Todo.module.css'
 
+
+
 async function getData() {
     const res = await fetch('https://jsonplaceholder.typicode.com/todos')
     // The return value is *not* serialized

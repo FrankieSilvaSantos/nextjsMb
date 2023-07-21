@@ -35,7 +35,7 @@ export default async function Header() {
           <Link className={`nav-link ${styles.linkStyle}`} href='/todos/todo'>Todo</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${styles.linkStyle}`}  href='/todos/[id]?id=1'>DynamicRoutes</Link>
+          <Link className={`nav-link ${styles.linkStyle}`}  href='/todos/1'>DynamicRoutes</Link>
         </li>
       </ul>
     </div>
