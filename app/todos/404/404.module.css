@@ -1,0 +1,47 @@
+.iconNotFound {
+    
+   fill: purple!important;
+   
+    font-size: 60px;
+
+}
+
+
+    @font-face {
+        font-family: 'Minecraft';
+        src: local('/font/Minecraft.ttf'),
+             url('/fonts/Minecraft.ttf') format('ttf'),
+             url('/fonts/Minecraft.ttf') format('ttf');
+    }
+
+    .tituloNotFound {
+        font-family: 'Minecraft' !important;
+    }
+
+    .error{
+
+        width: 70%;
+        padding: 30px !important;
+        font-size: 25px;
+     
+    }
+
+
+    .linkStyle {
+
+       position: relative;
+       left: 20%;
+
+    }
+
+    .containerNotFound {
+
+        display: flex;
+        width: auto;
+        justify-content: center;
+        margin-left: 15%;
+        margin-top: 10em;
+      
+
+    }
+
