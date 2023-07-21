@@ -23,7 +23,7 @@
         width: 70%;
         padding: 30px !important;
         font-size: 25px;
-     
+        font-family: 'Minecraft';
     }
 
 
@@ -31,7 +31,7 @@
 
        position: relative;
        left: 20%;
-
+       font-family: 'Minecraft';
     }
 
     .containerNotFound {
@@ -41,7 +41,7 @@
         justify-content: center;
         margin-left: 15%;
         margin-top: 10em;
-      
+        
 
     }
 
