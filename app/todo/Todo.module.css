@@ -1,0 +1,28 @@
+.spanTodo {
+
+    font-weight: bold;
+
+}
+
+.containerTodo {
+
+    margin: 2em 2em 0 2em;
+    margin-top: 2em;
+    margin-left: 2em;
+
+}
+
+.listStyle {
+
+    border: 2px solid black;
+   
+
+}
+
+.listLiStyle {
+
+   
+    background-size: 10px;
+    border-color: black !important;
+
+}

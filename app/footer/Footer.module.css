@@ -1,11 +1,32 @@
-.footerContainer {
+ .footerContainer {
 
-    position:absolute;
+    position:relative;
     
-    
+        height: auto;
+    top: 1.5em;
 left:0;
 bottom:0;
 right:0;
 
+} 
+
+.linkFooter {
+    transition: 1s !important;
+}
+
+.spanFooter {
+    transition: 1s;
+    text-decoration: underline !important;
+}
+
+.linkFooter:hover, .spanFooter:hover {
+
+    color: rgb(184, 179, 179) !important;
+    
+
+}
+
+.spanFooter:hover {
+    text-decoration: underline !important;
 }
 

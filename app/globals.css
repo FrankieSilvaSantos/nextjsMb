@@ -7,3 +7,14 @@ html,body,section,div {
   height:100%;
   display: block;
 }
+
+/* .layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+
+  flex-grow: 1;
+} */

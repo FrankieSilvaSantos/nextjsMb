@@ -5,6 +5,7 @@ import styles from './Header.module.css'
 import About from "../about/page"
 import Products from "../products/page"
 
+
 export default async function Header() {
 
         return(
@@ -30,7 +31,7 @@ export default async function Header() {
           <Link className={`nav-link ${styles.linkStyle}`} href="/products">Produtos</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${styles.linkStyle}`} href='#'>Disabled</Link>
+          <Link className={`nav-link ${styles.linkStyle}`} href='/todo'>Todo</Link>
         </li>
       </ul>
     </div>

@@ -9,7 +9,7 @@ export default function Products() {
             <section className={`${styles.containerProducts}`}>
 
             <h1>Pagina Produtos</h1>
-            
+            <div style={{height:'64vh'}}></div>
             </section>
         </>
 

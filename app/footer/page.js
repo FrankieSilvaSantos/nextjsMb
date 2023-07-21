@@ -1,4 +1,6 @@
 import styles from './Footer.module.css'
+import Link from 'next/link'
+
 
 export default function Footer() {
 
@@ -11,7 +13,7 @@ export default function Footer() {
  
   <div className={`text-center p-3 ${styles.divFooterColor}`}>
     © 2021 Copyright:
-    <a className="text-dark" href="https://mdbootstrap.com/">Curso do NextJs</a>
+    <Link className={`text-dark ${styles.linkFooter}`} href="https://github.com/FrankieSilvaSantos"> <span className={`${styles.spanFooter}`}>Curso do NextJs</span></Link>
   </div>
  
 
