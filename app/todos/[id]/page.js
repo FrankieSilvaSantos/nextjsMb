@@ -1,5 +1,7 @@
 import Link from "next/link"
 import styles from './Id.module.css'
+import NotFound from "../404/page"
+
 
 export async function generateMetadata({ params, searchParams }, parent) {
   // read route params
@@ -28,14 +30,18 @@ export default async function Id({ params, searchParams }) {
 
   const data = await fetch(`https://jsonplaceholder.typicode.com/todos/${params.id}`).then((res) => res.json())
 
+  if(!data.id) {
+    return NotFound()
+  }
   return(
 
     <section className={`${styles.containerId}`}>
-      <h1>ID: {params.id}</h1>
+  
+      <h1>ID: {data.id}</h1>
     
 
 <h2>Title: {data.title}</h2>
-<h2>Completed: {data.completed.toString()}</h2>
+ {/* <h2>Completed: {data.completed.toString()}</h2>  */}
     
       
 
