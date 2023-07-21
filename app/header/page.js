@@ -4,6 +4,7 @@ import Link from "next/link"
 import styles from './Header.module.css'
 import About from "../about/page"
 import Products from "../products/page"
+import DynamicRoutes from "../todos/[id]/page"
 
 
 export default async function Header() {
@@ -31,7 +32,10 @@ export default async function Header() {
           <Link className={`nav-link ${styles.linkStyle}`} href="/products">Produtos</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${styles.linkStyle}`} href='/todo'>Todo</Link>
+          <Link className={`nav-link ${styles.linkStyle}`} href='/todos/todo'>Todo</Link>
+        </li>
+        <li className="nav-item">
+          <Link className={`nav-link ${styles.linkStyle}`}  href='/todos/[id]?id=1'>DynamicRoutes</Link>
         </li>
       </ul>
     </div>
